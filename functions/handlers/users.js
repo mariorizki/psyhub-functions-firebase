@@ -94,3 +94,5 @@ exports.login = (req, res) => {
       }
     });
 };
+
+exports.uploadImage = (req, res) => {};
