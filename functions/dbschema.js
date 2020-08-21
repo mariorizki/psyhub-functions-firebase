@@ -23,3 +23,29 @@ let db = {
     }
   ]
 };
+
+const userDetails = {
+  // For redux state
+  credentials: {
+    userId: '2324fdd2d',
+    email: 'user@mail.com',
+    handle: 'user',
+    createdAt: 'date',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/psyhub-68f74.appspot.com/o/479114879032.jpeg?alt=media',
+    fullName: 'user fullname',
+    bio: 'user bio',
+    website: 'https://user.com',
+    location: 'LA, California'
+  },
+  likes: [
+    {
+      userHandle: 'user',
+      postId: '243efeg3'
+    },
+    {
+      userHandle: 'user',
+      postId: '2efgdds3'
+    }
+  ]
+};
