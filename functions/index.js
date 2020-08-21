@@ -14,6 +14,6 @@ app.post('/post', FBAuth, createNewPost);
 // users routes
 app.post('/signup', signup);
 app.post('/login', login);
-app.post('/user/image', uploadImage);
+app.post('/user/image', FBAuth, uploadImage);
 
 exports.api = functions.region('asia-southeast2').https.onRequest(app);
