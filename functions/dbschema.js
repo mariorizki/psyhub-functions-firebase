@@ -21,6 +21,14 @@ let db = {
       likeCount: 'number of likes from post',
       commentCount: 'number of comments from post'
     }
+  ],
+  comments: [
+    {
+      userHandle: 'user',
+      postId: 'dae32r2d',
+      body: 'cool post bro!',
+      createdAt: 'date'
+    }
   ]
 };
 
